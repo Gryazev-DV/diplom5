@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+			box-sizing: border-box;
+			padding: 0;
+			margin: 0;
+		}
+
+		.wrap {
+			width: 1400px;
+			margin: 0 auto;
+		}
+
+		.about {
+			position: relative;
+			width: 100%;
+			height: 300px;
+		}
+
+		p {
+			position: absolute;
+			width: 400px;
+			font-size: 20px;
+		}
+
+		.text-left {
+			text-align: right;
+			left: 100px;
+		}
+
+		.text-right {
+			right: 100px;
+			text-align: left;
+		}
+
+		figure {
+			width: 180px;
+			height: 180px;
+			border: 10px solid green;
+			border-radius: 50%;
+			overflow: hidden;
+			margin: 0 auto;
+		}
+
+		figure::after {
+			position: absolute;
+			content: '';
+			margin-left: -2px;
+			top: 180px;
+			left: 50%;
+			width: 3px;
+			height: 120px;
+			background: red;
+		}
+
+
+
+
+
+
+
+	
+	</style>
+</head>
+<body>
+<div class="wrap">
+	<div class="about">
+		<p class="text-left">Proin iaculis purus consequat sem cure 
+digni ssim. Donec porttitora entum suscipit 
+aenean rhoncus posuere odio in tincidunt. Proin 
+iaculis purus consequat sem cure digni 
+ssim. Donec porttitora entum suscipit.</p>
+    <figure>
+		  <img src="image.jpg" alt="">
+		</figure>
+	</div>
+	<div class="about">
+		<p class="text-right">Proin iaculis purus consequat sem cure 
+digni ssim. Donec porttitora entum suscipit 
+aenean rhoncus posuere odio in tincidunt. Proin 
+iaculis purus consequat sem cure digni 
+ssim. Donec porttitora entum suscipit aenean 
+rhoncus posuere odio in tincidunt.</p>
+		<figure>
+		  <img src="image.jpg" alt="">
+		</figure>
+	</div>
+</div>
+</body>
+</html>
