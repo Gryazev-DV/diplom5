@@ -19,12 +19,15 @@ a {
 	margin: 0 auto;
 }
 
+			/*section home*/
+
 #home {
 	width: 100%;
 	height: 700px;
 	color: #fff;
 	border: 1px solid rgba(0,0,0,0);
-	background-image: linear-gradient( rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)), url('images/back-head.png');
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)), url('images/back-head.jpg');
+	background-position: 0 -43px;
 }
 
 #home header {
@@ -73,6 +76,8 @@ h2 {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
   font-size: 75px;
+  font-weight: 500;
+  letter-spacing: -1px;
  	text-align: center;
  	margin-top: 25px;
  	margin-left: 10px;
@@ -80,7 +85,7 @@ h2 {
 
 .button {
 	display: block;
-	margin: 42px auto 0;
+	margin: 41px auto 0;
 	text-align: center;
 	width: 240px;
 	height: 65px;
@@ -96,3 +101,11 @@ h2 {
 	line-height: 65px;
 	vertical-align: middle;
 }
+
+ 		/*section Services*/
+
+
+
+
+
+
