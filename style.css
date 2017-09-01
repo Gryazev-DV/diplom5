@@ -18,7 +18,7 @@ html {
 }
 
 .wrap {
-	max-width: 1400px;
+	min-width: 1400px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -27,13 +27,21 @@ section {
 	padding-top: 110px;
 }
 
+/*.container {
+	width: 950px;
+	margin: 0 auto;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	height: 100%;
+}*/
+
 			/*section home*/
 
 #home {
 	width: 100%;
 	height: 700px;
 	color: #fff;
-	border: 1px solid rgba(0,0,0,0);
+	border: 0px solid rgba(0,0,0,0);
 	background-image: linear-gradient( rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)), url('images/back-head.jpg');
 	background-position: 0 -43px;
 }
@@ -50,7 +58,7 @@ section {
 
 .logo {
 	float: left;
-	width: 556px;
+	width: 553px;
 	line-height: 134px;
 }
 
@@ -58,7 +66,7 @@ section {
   float: right;	
   text-align: left;
   width: 711px;
-	line-height: 119px;
+	line-height: 120px;
 	list-style-type: none;
 	font-family: 'Montserrat', sans-serif;
 } 
@@ -76,7 +84,7 @@ h1 {
 	font-style: italic;
 	font-weight: 400;
 	margin-left: 4px;
-	margin-top: 159px;
+	margin-top: 161px;
 	letter-spacing: -1px;
 }
 
@@ -84,15 +92,16 @@ h2 {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
   font-size: 75px;
-  font-weight: 500;
- 	margin-top: 25px;
+  font-weight: 600;
+ 	margin-top: 26px;
+ 	letter-spacing: -1px;
 }
 
 .button {
 	display: block;
 	margin: 40px auto 0;
 	width: 240px;
-	height: 65px;
+	height: 64px;
 	background: #fed136;
 	border-radius: 4px;
 }
@@ -117,7 +126,7 @@ h3 {                          /*Для всех секций*/
 	text-transform: uppercase;
 	font-size: 40px;
 	letter-spacing: -1px;
-	margin-bottom: 7px;
+	margin-bottom: 9px;
 }
 
 section>p {
@@ -125,8 +134,40 @@ section>p {
   font-style: italic;
   font-size: 16px;
   margin-left: -2px;
-
+  margin-bottom: 75px;
 }
+
+.services-icons {
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+}
+
+.services-icons:nth-child(2) {
+  margin-left: 45px;
+	margin-right: 45px;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.services-icons h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	margin-top: 16px;
+	color: #222222;
+}
+
+.services-icons p {
+	margin-top: 10px;
+	line-height: 22px;
+	word-spacing: -2px;
+	color: #777777;
+}
+
 
 
 
