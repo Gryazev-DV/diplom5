@@ -125,6 +125,7 @@ h3 {                          /*Для всех секций*/
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	font-size: 40px;
+	color: #222222;
 	letter-spacing: -1px;
 	margin-bottom: 9px;
 }
@@ -133,6 +134,7 @@ section>p {
   font-family: 'Droid Serif', serif;
   font-style: italic;
   font-size: 16px;
+  color: #777777;
   margin-left: -2px;
   margin-bottom: 75px;
 }
@@ -150,10 +152,6 @@ section>p {
 	margin-right: 45px;
 }
 
-.container {
-	margin: 0 auto;
-}
-
 .services-icons h4 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
@@ -168,6 +166,23 @@ section>p {
 	color: #777777;
 }
 
+#portfolio {
+	height: 1220px;
+	background-color: #f7f7f7;
+}
+
+.portfolio-icons {
+  display: inline-block;
+  width: 291px;
+  height: 394px;
+  /*text-align: center;*/
+  border: 1px solid black;
+}
+
+.portfolio-icons:nth-child(2+3n) {
+	margin-left: 20px;
+	margin-right: 20px;
+}
 
 
 
