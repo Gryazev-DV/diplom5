@@ -284,7 +284,7 @@ section>p {
 }
 
 #team {
-	height: 820px;
+	height: 817px;
 	background-color: #f9f9f9;
 }
 
@@ -327,12 +327,33 @@ p.team {
 	margin-top: 50px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 16px;
-	/*border: 1px solid black;*/
+	color: #777777;
 	width: 590px;
 	text-align: center;
 	line-height: 24px;
 	letter-spacing: -0.5px;
 }
+
+#logos {
+	height: 164px;
+	background-color: #fff;
+	padding-top: 0px;
+}
+
+#logos .container {
+	display: inline-block;
+	line-height: 165px;
+	margin-top: -3px;
+}
+
+.logos-icons {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 18px;
+	margin-right: 19px;
+}
+
+
 
 
 
