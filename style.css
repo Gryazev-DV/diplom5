@@ -34,7 +34,7 @@ section {
 	border-right: 1px solid black;
 }
 
-			/*section home*/
+
 
 #home {
 	width: 100%;
@@ -88,6 +88,7 @@ h1 {
 }
 
 h2 { 
+	margin-bottom: 40px;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
   font-size: 75px;
@@ -98,16 +99,14 @@ h2 {
 
 .button {
 	display: block;
-	margin: 40px auto 0;
+	margin: 0 auto;
 	width: 240px;
 	height: 64px;
 	background: #fed136;
 	border-radius: 4px;
-}
-
-.button span {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
+	color: #fff;
 	font-weight: 700;
 	text-transform: uppercase;
 	line-height: 65px;
@@ -198,6 +197,8 @@ section>p {
 	color: #737373;
 }
 
+
+
 #about {
 	height: 1665px;
 	background-color: #fff;
@@ -283,6 +284,8 @@ section>p {
 	background: #f1f1f1;
 }
 
+
+
 #team {
 	height: 817px;
 	background-color: #f9f9f9;
@@ -334,6 +337,8 @@ p.team {
 	letter-spacing: -0.5px;
 }
 
+
+
 #logos {
 	height: 164px;
 	background-color: #fff;
@@ -353,7 +358,118 @@ p.team {
 	margin-right: 19px;
 }
 
+#contact {
+	height: 677px;
+	padding-top: 100px;
+	background-color: #222222;
+	background-image: url("images/map.png");
+	background-repeat: no-repeat;
+	background-position: 785px 120px; 
+}
+
+#contact h3 {
+	color: #fff;
+	margin-bottom: 12px;
+}
+
+.contact-form {
+  display: inline-block;
+  vertical-align: top;
+  width: 460px;
+  margin: 0 10px 4px 11px;
+}
+
+.contact-form input {
+	width: 458px;
+	height: 54px;
+	/*border: 1px solid #fff;*/
+  border-radius: 5px;
+	margin-bottom: 26px;
+	font-family: 'Montserrat', sans-serif;
+	text-indent: 19px;
+	font-size: 16px;
+}
+
+.contact-form textarea {
+	font-family: 'Montserrat', sans-serif;
+	width: 457px;
+	height: 213px;
+	border-radius: 5px;
+	resize: none;
+	text-indent: 19px;
+	padding-top: 18px;
+}
 
 
+::-webkit-input-placeholder {
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-weight: 500;
+text-indent: 19px;
+color: #bbb;
+text-transform: uppercase;
+}
 
+textarea::-webkit-input-placeholder {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	text-indent: 19px;
+	color: #bbb;
+	text-transform: uppercase;
+}
 
+:-moz-placeholder {
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-weight: 500;
+text-indent: 19px;
+color: #bbb;
+text-transform: uppercase;
+}
+::-moz-placeholder {
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-weight: 500;
+text-indent: 19px;
+color: #bbb;
+text-transform: uppercase;
+}
+:-ms-input-placeholder { 
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-weight: 500;
+text-indent: 19px;
+color: #bbb;
+text-transform: uppercase;
+}
+
+textarea:-moz-placeholder {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	text-indent: 19px;
+	color: #bbb;
+	text-transform: uppercase;
+}
+textarea::-moz-placeholder {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	text-indent: 19px;
+	color: #bbb;
+	text-transform: uppercase;
+}
+textarea:-ms-input-placeholder {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	text-indent: 19px;
+	color: #bbb;
+	text-transform: uppercase;
+}
+
+input.button {
+	/*margin-top: -4px;*/
+	/*border: 1px solid black;*/
+}
