@@ -47,7 +47,6 @@ section {
 	left: 0;
 	right: 0;
 	background-color: rgba(0,0,0,0.05);
-	z-index: 100;
 }
 
 .logo {
@@ -191,28 +190,22 @@ height: 77px;
 	color: #777777;
 }
 
-
 #portfolio {
 	padding-bottom: 70px;
 	background-color: #f7f7f7;
 }
 
+#portfolio p {
+	margin-bottom: 76px;
+}
 
 .portfolio-icons {
   display: inline-block;
-  width: 29%;
-  min-height: 392px;
-  margin: 0 1.5%;
-  margin-bottom: 52px;
+  width: 32%;
+  min-height: 394px;
+  margin-bottom: 2px;
   vertical-align: top;
-  background-color: #fff;
   transition: all 2s ease-out;
-}
-
-
-.portfolio-icons img, 
-.portfolio-icons figcaption {
-	width: 100%;
 }
 
 .portfolio-icons:hover {
@@ -225,7 +218,6 @@ height: 77px;
 	color: #333333;
 	margin-top: 21px;
 	margin-bottom: 1px;
-	text-align: center;
 }
 
 .portfolio-icons p {
@@ -233,9 +225,7 @@ height: 77px;
 	font-style: italic;
 	font-size: 14px;
 	color: #737373;
-	text-align: center;
 }
-
 
 
 
@@ -251,7 +241,7 @@ height: 77px;
 .about {
 	position: relative;
 	width: 100%;
-	min-height: 276px;
+	height: 276px;
 }
 
 .about h4.month {
@@ -332,6 +322,13 @@ height: 77px;
   left: 19%;
 }
 
+
+/*.about figcaption p {
+	
+}*/
+
+
+
 .about:not(:last-child)::after {
 	position: absolute;
 	content: '';
@@ -360,6 +357,7 @@ height: 77px;
 	.person {
 		display: inline-block;
 		width: 250px;
+		height: 340px;
 		margin-top: 2px;
 		margin-left: 13px;
 		margin-right: 13px;
@@ -434,7 +432,7 @@ height: 77px;
 
 	p.team {
 		margin: auto;
-		margin-top: 41px;
+		margin-top: 50px;
 		font-family: 'Roboto Slab', serif;
 		font-size: 16px;
 		color: #777777;
@@ -513,7 +511,9 @@ height: 77px;
 	text-indent: 19px;
 	border: none;
 	border-radius: 5px;
-	resize: none;	
+	resize: none;
+	
+	
 }
 
 ::-webkit-input-placeholder {

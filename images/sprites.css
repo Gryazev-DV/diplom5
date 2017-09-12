@@ -1,0 +1,52 @@
+.facebook, .google+, .pinterest, .twitter, .footer-google+, .footer-pinterest, .footer-twitter, .footer-facebook{
+	background: url(sprites.png) no-repeat;
+}
+
+.facebook{
+	background-position: 0 0;
+	width: 51px;
+	height: 51px;
+}
+
+.google+{
+	background-position: -97px 0;
+	width: 51px;
+	height: 51px;
+}
+
+.pinterest{
+	background-position: -148px 0;
+	width: 51px;
+	height: 51px;
+}
+
+.twitter{
+	background-position: -51px 0;
+	width: 51px;
+	height: 51px;
+}
+
+.footer-google+{
+	background-position: -103px -54px ;
+	width: 41px;
+	height: 42px;
+}
+
+.footer-pinterest{
+	background-position: -153px -52px ;
+	width: 41px;
+	height: 42px;
+}
+
+.footer-twitter{
+	background-position: -54px -53px ;
+	width: 41px;
+	height: 42px;
+}
+
+.footer-facebook{
+	background-position: -5px -53px ;
+	width: 41px;
+	height: 42px;
+}
+
